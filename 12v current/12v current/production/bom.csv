@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J12,PinHeader_1x02_P2.54mm_Vertical,1,I IN,
+J13,PinHeader_1x02_P2.54mm_Vertical,1,15V IN,
+J14,PinHeader_1x02_P2.54mm_Vertical,1,I OUT,
+R14,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,1,0.1,
+R15,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,8000,
+U8,RM_8_ADI,1,AD8227ARZ,

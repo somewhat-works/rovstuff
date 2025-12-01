@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (17.4.0.d001)
+STATUS:  
+STATUS: Translator started at Friday, April 21, 2023 14:39:43
+STATUS: C:\Cadence\SPB_17.4\tools\bin\sch2cap -f "D:\Model build\MPQ8112\MPQ8112_Pspice\MPQ8112_Pspice_before_20230421\MPQ8112.lib" -o "D:\Model build\MPQ8112\MPQ8112_Pspice\MPQ8112_Pspice_before_20230421\MPQ8112.olb" -i C:\SPB_Data\.\cdssetup\OrCAD_PSpice/17.4.0/PSpice.ini
+INFO(ORSCH-1029): Using existing library 'C:\Cadence\SPB_17.4\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'D:\Model build\MPQ8112\MPQ8112_Pspice\MPQ8112_Pspice_before_20230421\MPQ8112.olb'.
+STATUS: Translator stopped at Friday, April 21, 2023 14:39:44
+STATUS: 0 Error messages, 0 Warning messages

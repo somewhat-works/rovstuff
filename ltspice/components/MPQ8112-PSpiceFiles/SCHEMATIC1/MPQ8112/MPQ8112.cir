@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-MPQ8112"  [ D:\Model build\MPQ8112\MPQ8112_Pspice\MPQ8112_Pspice_encrypt_20230421\mpq8112-pspicefiles\schematic1\mpq8112.sim ] 
+
+** Creating circuit file "MPQ8112.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../mpq8112-pspicefiles/schematic1/mpq8112.lib" 
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.4.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 100n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

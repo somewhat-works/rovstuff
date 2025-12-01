@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "ltc1781")(type "KiCad")(uri "${KIPRJMOD}/components/KiCADv6/2025-11-25_23-08-54.kicad_sym")(options "")(descr ""))
+  (lib (name "irf7805")(type "KiCad")(uri "${KIPRJMOD}/components/KiCADv6/2025-11-26_00-23-00.kicad_sym")(options "")(descr ""))
+)

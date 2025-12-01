@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -96 -56 96 56
+WINDOW 0 0 -56 Bottom 2
+WINDOW 3 0 56 Top 2
+SYMATTR Prefix X
+SYMATTR Value AD8212
+SYMATTR ModelFile E:\beadboard_monitoring\ltspice\components\AD8212.cir
+PIN -96 -32 LEFT 8
+PINATTR PinName INP
+PINATTR SpiceOrder 1
+PIN -96 0 LEFT 8
+PINATTR PinName INN
+PINATTR SpiceOrder 2
+PIN -96 32 LEFT 8
+PINATTR PinName IOUT
+PINATTR SpiceOrder 3
+PIN 96 -32 RIGHT 8
+PINATTR PinName COMMON
+PINATTR SpiceOrder 4
+PIN 96 0 RIGHT 8
+PINATTR PinName ALPHA
+PINATTR SpiceOrder 5
+PIN 96 32 RIGHT 8
+PINATTR PinName BIAS
+PINATTR SpiceOrder 6

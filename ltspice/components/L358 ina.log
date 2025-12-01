@@ -1,0 +1,111 @@
+LTspice 24.1.5 for Windows
+Circuit: E:\beadboard_monitoring\ltspice\components\L358 ina.net
+Start Time: Tue Nov  4 22:51:01 2025
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 0.000604946
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 0.000570882
+vernier = 0.0078125
+vernier = 0.0104167
+Gmin = 0.000560219
+vernier = 0.0138889
+Gmin = 0.000543009
+vernier = 0.0185185
+vernier = 0.0246913
+Gmin = 0.000515325
+vernier = 0.0329218
+vernier = 0.0438957
+Gmin = 0.00047413
+vernier = 0.0585276
+Gmin = 0.000415993
+vernier = 0.0780367
+vernier = 0.104049
+Gmin = 0.000334295
+vernier = 0.138732
+vernier = 0.184976
+Gmin = 0.000236436
+vernier = 0.246634
+Gmin = 0.000137808
+vernier = 0.328846
+vernier = 0.164423
+vernier = 0.0822114
+vernier = 0.0411057
+Gmin = 0.000119836
+vernier = 0.0205529
+vernier = 0.0274038
+Gmin = 0.000114825
+vernier = 0.0365384
+vernier = 0.0487178
+Gmin = 0.000104688
+vernier = 0.0649571
+Gmin = 9.05505e-05
+vernier = 0.0866095
+vernier = 0.115479
+Gmin = 7.10608e-05
+vernier = 0.153972
+vernier = 0.205296
+Gmin = 4.84188e-05
+vernier = 0.273728
+Gmin = 2.66432e-05
+vernier = 0.364971
+vernier = 0.486628
+Gmin = 9.96822e-06
+vernier = 0.648837
+vernier = 0.865116
+Gmin = 2.17333e-06
+vernier = 1
+Gmin = 2.60335e-07
+Gmin = 2.79532e-08
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 2.79532e-08
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source Step = 87.8995%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 88.6364%
+vernier = 0.0625
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 13.1107 s.
+Total elapsed time: 59.190 seconds.
+
+Files loaded:
+E:\beadboard_monitoring\ltspice\components\L358 ina.net
+C:\Users\piken\Downloads\snom268c\lmx58_lm2904.lib
+

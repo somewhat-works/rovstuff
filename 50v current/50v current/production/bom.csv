@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+J10,PinHeader_1x02_P2.54mm_Vertical,1,I OUT 2,
+J8,PinHeader_1x02_P2.54mm_Vertical,1,I IN 2,
+J9,PinHeader_1x02_P2.54mm_Vertical,1,opamp power,
+R7,R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal,1,0.1,
+R8,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,15k,
+R9,R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal,1,100,
+U3,MSOP-8_3x3mm_P0.65mm,1,AD8212,
+U4,TSOT-23-5,1,AD8603,

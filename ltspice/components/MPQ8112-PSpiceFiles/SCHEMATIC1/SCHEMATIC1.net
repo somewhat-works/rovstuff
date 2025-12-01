@@ -1,0 +1,11 @@
+* source MPQ8112
+C_C1         0 VCC  10u  TC=0,0 
+R_R3         N00944 VCC  100m TC=0,0 
+R_R4         0 N00944  12 TC=0,0 
+V_V4         VCC 0  
++PWL 0.5m 0 1m 12 2m 12 
+C_C3         0 N01503  100n  TC=0,0 
+C_C2         0 VCC  1u  TC=0,0 
+C_C4         0 N01593  5p  TC=0,0 
+V_V6         N01503 0 5
+X_U1         0 N01593 VCC N00944 N01503 VCC MPQ8112

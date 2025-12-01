@@ -1,0 +1,60 @@
+* AD8212 SPICE MACRO MODEL
+* Description: Current Sense Amplifier
+* Developed by: Analog Devices
+* Created on 1/29/2013
+* Copyright (1/2013)
+*
+*
+* For more information, or the latest model, please visit www.analog.com
+
+* Node Assignments
+*               Supply source side input
+*               |   Load side input
+*               |   |   Output (current)
+*         		|	|   |	  SUPPLY COMMON
+*               |   |   |      |     Base drive to PNP pass transistor for HighV operation
+*               |   |   |      |     |     Device Biasing pin.
+*               |   |   |      |     |     |
+.SUBCKT AD8212 INP INN IOUT COMMON ALPHA BIAS
+*----------------------------------------------------
+*Input impedance modelling
+*Differential:
+*R1 INP INN 2e3
+*Common Mode:
+I1 INN 0 200e-9
+
+* BIAS SUPPLY STAGE
+I10 INP BIAS 151e-6
+D10 BIAS INP DREG
+R10 INP BIAS 101.75e3
+
+*COMMON AND ALPHA PIN WIRING
+V2 INP COMREF 5
+R3 COMREF COMMON 1
+I20 ALPHA INP 1e-3
+R20 INP ALPHA 5.7e3
+
+*SUPPLY DUPLICATION -- FUNCTIONAL BEHAVIOR MODELLING
+E1 SUPDUP 0 INP 0 1
+
+*FEEDBACK NETWORK /OUTPUT
+R4 SUPDUP GMN 1E3
+Q1 IOUT GMOC GMN GENERICPNP
+E2 GMOC 0 GMO 0 1
+C1 IOUT 0 15.6E-12
+
+
+*GAIN STAGE
+G1 GMO 0 GMN GMP 0.01
+R5 GMO 0 1E8
+D2 GMO GMOCLAMP DREG
+V5 SUPDUP GMOCLAMP 0.378
+
+*NOISE
+E3 INN GMP NOISENODE 0 1
+R6 NOISENODE 0 96.6E3
+
+
+.MODEL DREG D IS=1E-15
+.MODEL GENERICPNP PNP IS=1E-12 BF=500
+.ends AD8212

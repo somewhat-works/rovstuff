@@ -1,0 +1,138 @@
+(ExpressProject "MPQ8112"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S021 (3976684)  [9/12/2021]-[04/21/23]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\mpq8112.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (Display_Online_DRC_Results "FALSE")
+    (Netlist_TAB "3")
+    (PSPICE_Output_File "mpq8112-PSpiceFiles\SCHEMATIC1\SCHEMATIC1.NET")
+    (PSPICE_View_Output "TRUE")
+    (PSPICE_Subcircuit_Format "FALSE")
+    (PSPICE_Do_DRC_Markers "FALSE")
+    (PSPICE_Net_Name_Pref "TRUE")
+    (PSPICE_Hier_Format "TRUE")
+    (PSPICE_Hier_Descend "FALSE")
+    (PSPICE_Hier_DoNot_Descend "FALSE")
+    (PSPICE_Alt_Template "PSpiceTemplate")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\mpq8112-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\mpq8112-pspicefiles\schematic1\mpq8112.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mpq8112-pspicefiles\schematic1\mpq8112.sim"
+        (DisplayName "SCHEMATIC1-MPQ8112")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\mpq8112-pspicefiles\schematic1\mpq8112.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\mpq8112-pspicefiles\schematic1\mpq8112.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (MPQ8112
+      (FullPartName "MPQ8112.Normal")
+      (LibraryName
+         "D:\MODEL BUILD\MPQ8112\MPQ8112_PSPICE\MPQ8112_PSPICE_BEFORE_20230421\MPQ8112-PSPICEFILES\SCHEMATIC1\MPQ8112.OLB")
+      (DeviceIndex "0"))
+    (D_DL
+      (FullPartName "D_DL.Normal")
+      (LibraryName "D:\20181225\LOGICGATE_BB.OLB")
+      (DeviceIndex "0"))
+    (D_DEF
+      (FullPartName "D_DEF.Normal")
+      (LibraryName "D:\20181225\LOGICGATE_BB.OLB")
+      (DeviceIndex "0"))
+    (LED_BB
+      (FullPartName "LED_BB.Normal")
+      (LibraryName "D:\20181225\LOGICGATE_BB.OLB")
+      (DeviceIndex "0"))
+    (D1N4097
+      (FullPartName "D1N4097.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (D_BB
+      (FullPartName "D_BB.Normal")
+      (LibraryName "D:\20181225\LOGICGATE_BB.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (D02BZ2_2
+      (FullPartName "D02BZ2_2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (D04AZ3_0
+      (FullPartName "D04AZ3_0.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (D02CZ10
+      (FullPartName "D02CZ10.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (D02BZ2_7
+      (FullPartName "D02BZ2_7.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\JDIODE.OLB")
+      (DeviceIndex "0"))
+    (VCSW
+      (FullPartName "VCSW.Normal")
+      (LibraryName "D:\20181225\LOGICGATE_BB.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Model build\MPQ8112\MPQ8112_Pspice\MPQ8112_Pspice_encrypt_20230421\mpq8112.dsn")
+      (Path "Design Resources"
+         "D:\Model build\MPQ8112\MPQ8112_Pspice\MPQ8112_Pspice_encrypt_20230421\mpq8112.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Model Libraries")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 343 0 907"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1496 26 927")
+        (Scroll "-297 -2")
+        (Zoom "72")
+        (Occurrence "/"))
+      (Path
+         "D:\MODEL BUILD\MPQ8112\MPQ8112_PSPICE\MPQ8112_PSPICE_ENCRYPT_20230421\MPQ8112.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "arzhou")
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\pspice"))
